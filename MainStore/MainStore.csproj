@@ -81,6 +81,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Repository\EFDbContext.cs" />
+    <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,7 +97,6 @@
   <ItemGroup>
     <Folder Include="App_Start\" />
     <Folder Include="Content\" />
-    <Folder Include="Models\Repository\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Pages\Helpers\" />
     <Folder Include="Scripts\" />
